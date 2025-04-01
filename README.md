@@ -5,7 +5,7 @@
 
 ### kol名單來源
 我主要蒐集網紅名單的來源有兩種，一為線上平台排行，一為 2023 另一平台網紅排行榜。
-1. KOLR 台灣 TOP 100 Instagram 帳號口碑聲量排行榜
+#### 1. KOLR 台灣 TOP 100 Instagram 帳號口碑聲量排行榜
 kol名單來自於KOL Radar（現KOLR) 之口碑聲量排名。
 - 更新時間：2025年 1 月
 - 口碑聲量公式：平均按讚數 * 單次按讚價值 + 平均留言數 * 單次留言價值 + 平均分享數 * 單次分享價值
@@ -15,14 +15,18 @@ kol名單來自於KOL Radar（現KOLR) 之口碑聲量排名。
 再抓其子分類
 - 如: 保養。
 
-這邊觀察到URL的排列規律為  url = f"https://app.kolradar.com/influencers-ranking?category={main_category}%2F{sub_category}&countryCode=tw&from=sideMenu&kolBusinessType=1&platform=ig&rankType=word_of_mouth_volume"
+這邊觀察到URL的排列規律為  
+
+url = f"https://app.kolradar.com/influencers-ranking?category={main_category}%2F{sub_category}&countryCode=tw&from=sideMenu&kolBusinessType=1&platform=ig&rankType=word_of_mouth_volume"
+
 Beauty+and+Fashion/Beauty+and+Fashion為主分類加上子分類的格式。
 
 因此使用自動化輸入主分類與子分類，對該分類前10大網紅抓取其KOLR中的連結。
 
 總共有20個類別，55個子類
 
-
+#### 2. 2024 AsiaKOL 台灣百大KOL排行榜
+為了更全面的
 
 
 Post佔全體貼文的58%
